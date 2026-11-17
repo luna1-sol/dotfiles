@@ -1,2 +1,5 @@
 # p10k configure が生成するファイルなので GitHub の言語統計から除外する
 config/p10k.zsh linguist-generated=true
+
+# Neovim (LazyVim) の設定も言語統計から除外する
+config/nvim/** linguist-vendored=true
