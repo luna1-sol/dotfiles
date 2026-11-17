@@ -1,0 +1,60 @@
+# =========================
+# Ghostty config for macOS
+# Powerlevel10k + NeoVim + Competitive Programming
+# =========================
+
+# -------------------------
+# Startup directory
+# -------------------------
+working-directory = ~/develop
+
+# -------------------------
+# Font
+# -------------------------
+font-family = "MesloLGS NF"
+font-size = 14
+
+# -------------------------
+# Theme
+# -------------------------
+theme = Catppuccin Mocha
+
+# -------------------------
+# Window
+# -------------------------
+window-padding-x = 8
+window-padding-y = 8
+window-decoration = true
+macos-titlebar-style = transparent
+
+# -------------------------
+# Transparency
+# -------------------------
+background-opacity = 0.7
+background-blur-radius = 0
+
+# -------------------------
+# Cursor
+# -------------------------
+cursor-style = block
+cursor-style-blink = false
+
+# -------------------------
+# Scrollback
+# -------------------------
+scrollback-limit = 100000
+
+# -------------------------
+# macOS
+# -------------------------
+macos-option-as-alt = true
+
+# -------------------------
+# Clipboard
+# -------------------------
+copy-on-select = false
+
+# -------------------------
+# Closing behavior
+# -------------------------
+confirm-close-surface = false

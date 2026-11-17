@@ -1,0 +1,2 @@
+# p10k configure が生成するファイルなので GitHub の言語統計から除外する
+config/p10k.zsh linguist-generated=true
