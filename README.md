@@ -79,7 +79,7 @@ git clone https://github.com/luna1-sol/dotfiles.git ~/nix-config
 `flake.nix` の先頭にある値を、そのマシンに合わせます。
 
 ```nix
-username = "ela";                # `whoami` の結果
+username = "luna";               # `whoami` の結果
 homeDirectory = "/Users/luna";   # `echo $HOME` の結果
 repoPath = "${homeDirectory}/nix-config";  # clone した場所
 ```

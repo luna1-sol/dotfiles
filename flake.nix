@@ -17,8 +17,8 @@
 
   outputs = { self, nixpkgs, nix-darwin, home-manager, ... }:
     let
-      # macOS のログイン名とホームディレクトリ（このMacでは名前が異なる点に注意）
-      username = "ela";
+      # macOS のログイン名（`whoami`）とホームディレクトリ
+      username = "luna";
       homeDirectory = "/Users/luna";
       # このリポジトリを置く場所（dotfiles のシンボリックリンク先に使う）
       repoPath = "${homeDirectory}/nix-config";
