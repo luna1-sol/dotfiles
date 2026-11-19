@@ -34,7 +34,7 @@ macOS（Apple Silicon）を **Nix で宣言的に管理する** ための設定�
 
 `config/` の中身は Nix のストアにはコピーされず、リポジトリ内のファイルを直接指すリンクになっています（`mkOutOfStoreSymlink`）。そのため、編集すると `rebuild` しなくてもすぐ反映されます。LazyVim の `lazy-lock.json` や `p10k configure` による書き込みも、そのままリポジトリに残ります。
 
-## 普段の使い方
+## 使用方法
 
 | やりたいこと | 方法 |
 |---|---|
