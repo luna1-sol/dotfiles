@@ -40,6 +40,7 @@ in
     tree
     uv
     wget
+    xcodegen
     zsh-completions
     # gdb は Apple Silicon のネイティブバイナリをデバッグできないので入れない（lldb を使う）
     # gcc は darwin/homebrew.nix 参照
@@ -51,6 +52,12 @@ in
   home.sessionVariables.EDITOR = "nvim";
 
   programs.fzf.enable = true;
+
+  # Java（旧 Homebrew の openjdk@21）。java / javac を入れて JAVA_HOME も設定する
+  programs.java = {
+    enable = true;
+    package = pkgs.jdk21;
+  };
 
   # プロジェクトに入ると flake の devShell を自動で読み込む
   programs.direnv = {
