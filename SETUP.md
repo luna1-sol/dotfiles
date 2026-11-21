@@ -76,7 +76,7 @@ sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake ~/nix-config
 which git node nvim
 ```
 
-2 回目以降は `rebuild` で反映できます。使い方は [README](README.md#普段の使い方) を参照してください。
+2 回目以降は `rebuild` で反映できます。使い方は [README](README.md#使用方法) を参照してください。
 
 ## アンインストール
 
